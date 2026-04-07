@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f5f8fb"/>
+  <rect x="60" y="70" width="240" height="330" rx="20" fill="#dce6f2"/>
+  <rect x="340" y="95" width="180" height="260" rx="18" fill="#ffffff"/>
+  <rect x="560" y="90" width="160" height="290" rx="22" fill="#e8f0f7"/>
+  <circle cx="430" cy="150" r="40" fill="#f47c20"/>
+  <rect x="390" y="230" width="80" height="90" rx="16" fill="#173b63"/>
+  <text x="60" y="445" fill="#173b63" font-family="Segoe UI, Arial" font-size="42" font-weight="700">Washroom preview</text>
+</svg>

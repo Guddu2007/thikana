@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#eef4f2"/>
+  <circle cx="170" cy="130" r="58" fill="#f47c20"/>
+  <rect x="90" y="210" width="250" height="130" rx="22" fill="#173b63"/>
+  <rect x="430" y="120" width="250" height="220" rx="24" fill="#ffffff"/>
+  <rect x="465" y="160" width="180" height="120" rx="16" fill="#dceaff"/>
+  <rect x="390" y="360" width="330" height="30" rx="15" fill="#2d5b8f"/>
+  <text x="90" y="440" fill="#173b63" font-family="Segoe UI, Arial" font-size="42" font-weight="700">Shared space preview</text>
+</svg>
