@@ -4,7 +4,7 @@ Thikana is a trust-first PG and hostel discovery MVP for students. It helps stud
 
 ## Tech Stack
 
-- HTML5
+- HTML5  
 - CSS3
 - Vanilla JavaScript
 - PHP
