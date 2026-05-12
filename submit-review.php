@@ -4,9 +4,9 @@ require_once __DIR__ . '/includes/db.php';
 $pageTitle = 'Submit Review';
 $currentPage = 'submit-review.php'; 
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') { 
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {            
     $listingId = (int) ($_POST['listing_id'] ?? 0);
-    $reviewerName = trim($_POST['reviewer_name'] ?? '');
+    $reviewerName = trim($_POST['reviewer_name'] ?? '');           
     $rating = (int) ($_POST['rating'] ?? 0);
     $reviewText = trim($_POST['review_text'] ?? ''); 
 
@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $success = $stmt->execute();
     $stmt->close();
 
-    if ($success) {
+    if ($success) {                         
         set_flash('success', 'Your review has been submitted and will be published after moderation.');
         redirect_to(BASE_URL . '/listing-details.php?id=' . $listingId);
     }
@@ -54,7 +54,7 @@ if ($listingResult) {
 require_once __DIR__ . '/includes/header.php';
 ?>
 
-<section class="page-banner">
+<section class="page-banner">                          
     <div class="container">
         <div class="surface">
             <span class="eyebrow">Review flow</span>
@@ -83,7 +83,7 @@ require_once __DIR__ . '/includes/header.php';
                 </div>
                 <div class="form-field col-6">
                     <label for="rating">Rating</label>
-                    <select id="rating" name="rating" required>
+                    <select id="rating" name="rating" required>                               
                         <option value="">Choose rating</option>
                         <option value="5">5 stars</option>
                         <option value="4">4 stars</option>
@@ -105,7 +105,7 @@ require_once __DIR__ . '/includes/header.php';
             <div class="form-actions"> 
                 <button type="submit">Submit Review</button> 
             </div>
-            <p class="form-status" data-form-status aria-live="polite"></p> 
+            <p class="form-status" data-form-status aria-live="polite"></p>                             
         </form>
 
         <aside class="details-stack">
