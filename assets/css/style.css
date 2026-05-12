@@ -3,17 +3,17 @@
     --color-primary-dark: #d8630f;
     --color-secondary: #173b63;
     --color-secondary-soft: #2d5b8f;
-    --color-bg: #f7f6f2;
+    --color-bg: #f7f6f2;  
     --color-surface: #ffffff;
     --color-surface-muted: #f2f4f7;
-    --color-text: #223047;
+    --color-text: #223047;  
     --color-text-soft: #5d6b81;
     --color-border: #d8dee8;
-    --color-success: #1f8a5c;
+    --color-success: #1f8a5c;  
     --color-danger: #c63c30;
-    --color-warning: #f9b43d;
+    --color-warning: #f9b43d;  
     --color-shadow: 0 18px 40px rgba(18, 42, 66, 0.08);
-    --color-shadow-soft: 0 10px 24px rgba(18, 42, 66, 0.06);
+    --color-shadow-soft: 0 10px 24px rgba(18, 42, 66, 0.06);   
     --radius-sm: 12px;
     --radius-md: 18px;
     --radius-lg: 28px;
@@ -23,7 +23,7 @@
     --space-4: 1.5rem;
     --space-5: 2rem;
     --space-6: 3rem;
-    --container-width: 1180px;
+    --container-width: 1180px;  
 }
 
 /* reset/base */
@@ -34,16 +34,16 @@
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;   
 }
 
 body {
     margin: 0;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     background: radial-gradient(circle at top left, rgba(244, 124, 32, 0.08), transparent 24%), var(--color-bg);
-    color: var(--color-text);
-    line-height: 1.6;
-}
+    color: var(--color-text);   
+    line-height: 1.6;   
+}   
 
 img,
 video {
